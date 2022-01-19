@@ -1,61 +1,150 @@
+*{
+  margin: 0px; 
+  padding: 0px; 
+  border: 0px;
+}
 .App {
-  flex: 1;
-  background-image:url(6.jpg);
+  background-color: rgb(24, 160, 160);
+  background-size: cover;
   align-items: center;
   justify-content: center;
 
+}
 
+.search-bar{
+    border: 2px solid red;
+    height: 25px;
+    width: 300px;
+    position: relative;
+    left: 100px;
+    border-radius: 10px;
+    
+   
+}
+
+.body-image-head-text{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(28, 29, 29);
+  background-color: aliceblue;
+}
+
+.body-image
+{
+  background-image: url(6.jpg);
+  background-size: cover;
+  height:30vmax;
+}
+
+.body-image-card-text
+{
+  border-bottom: 2px solid black;
+  color: rgb(26, 12, 12);
+  position: relative;
+  font-size: 25px;
+  border-radius: 5px;
+  padding-left: 30px;
+  padding-right: 30px;
+  top: 20px;
+  height: 5vmin;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.body-image-card-text:hover
+{
+  color: black;
+}
+
+.body-image-card
+{
+  
+  box-shadow: 0 40px 30px 0 rgba(0,0,0,0.2);
+  background-color: aqua;
+  position: relative;
+  font-size: 25px;
+  border-radius: 5px;
+  padding-left: 25px;
+  padding-right: 25px;
+  top: 70px;
+  left: 80px;
+  height: 20vmax;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+
+.body-image-card:hover{
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  background-color: white;
+  
+}
+
+.body-image-card-text-btn{
+  position: absolute;
+  top: 200px;
+  right: 140px;
+  height: 3vmax;
+  border: 2px solid rgb(24, 160, 160);
 }
 
 .logo {
-  height: 5vmin;
+  height: 10vmin;
   width: 100%;
   pointer-events: none;
-  align-items: center;
-  justify-content: center;
-  color:blue;
+  text-align: center;
+  font-size: 40px;
+  color:rgb(251, 255, 0);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.motto {
+  position: relative;
+  bottom: 20px;
+  font-style: italic;
+  width: 100%;
+  pointer-events: none;
+  text-align: center;
+  font-size: 17px;
+  color:rgb(251, 255, 0);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 .navbar{
-  align-content: center;
+  position: relative;
+  
   justify-content: center;
 }
 
 .menu{
- 
-  background-color:white;
-  border-radius: 10px;
-  clear: both;
+  background-color: rgb(246, 250, 250);
+  color: rgb(17, 16, 16);
+  position: relative;
+  font-size: 15px;
+  border-radius: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  height: 5vmin;
   display: inline-block;
+  
+
   overflow: hidden;
   white-space: nowrap;
-  padding-right: 30px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
 }
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.menu-btn
+{
+  background-color: black;
+  color: white;
+  font-size: 25px; 
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 5px;
+
 }
