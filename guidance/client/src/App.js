@@ -13,28 +13,15 @@ function App() {
      
       <div class="menu">
         <button class="menu-btn">Talks To Us</button>
-
-      </div> 
-      <div class="menu">
         <button class="menu-btn">About Us</button>
-
-      </div>
-       <div class="menu">
         <button class="menu-btn">How it works?</button>
+        <input class="search-bar" placeholder="Type your Profession"type='text'></input> 
+        <button class="menu-btn-login-signup">SIGN UP</button>
+        <button  class="menu-btn-login-signup">LOGIN</button>
+      </div>     
 
-      </div>
-      <div className='menu'>
-
-        <input class="search-bar" placeholder="Type your Profession"type='text'></input>
-        
-      </div>
-      <div className='menu'>
-
-        <button class="menu-btn">SIGN UP</button>
-        <button  class="menu-btn">LOGIN</button>
-      </div>
-               
     </div>
+    
     <div class="body-image">
      <div>
               <div>
