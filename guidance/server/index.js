@@ -3,12 +3,10 @@ const app=express();
 const connection=require('./database');
 
 
-app.get('/',(req,res)=>{
+app.get('/signup',(req,res)=>{
 
-    const sqlInsert="INSERT INTO studentdata(studentname,studentpassword,studentemail) VALUES('tapish','tapish','tapishbalodi7@gmail.com');"
-    connection.query(sqlInsert,(err,result)=>{
-        res.send("data inserted");
-    });
+
+  
     
 });
 

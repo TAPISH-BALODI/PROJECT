@@ -8,6 +8,7 @@
   background-size: cover;
   align-items: center;
   justify-content: center;
+  
 
 }
 
@@ -201,6 +202,8 @@
 .navbar{
   position: relative;
   
+  display: flex;
+  
   justify-content: center;
 }
 
@@ -222,26 +225,34 @@
 }
 
 .footer{
-   height: 200px;
+   height: 30vh;
    width: 100%;
-   background-color: rgba(255, 255, 255, 0.726);
+   background-color: rgb(155, 149, 149);
    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
    padding-top: 15px;
    font-size: 30px;
    display: inline-block;
    overflow: hidden;
    white-space: nowrap;
- 
-   
+   box-shadow: 0 0 3px black;
+   border-top:2px solid rgb(35, 237, 252);
+
 }
 .footer-description{
- margin-left: 40px;
- margin-right: 300px;
- display: inline-block;
- position: relative;
+ 
+  margin-left: 90px;
+  display: inline-block;
+  background-color: rgb(155, 149, 149);
+  position:relative;
+  width: 20vw;
+ 
+ 
+ 
 }
 
 .footer-description-text{
+  justify-content: space-evenly;
+  text-align: center;
   margin-left: 30px;
   font-size: 30px;
   color: yellow;
