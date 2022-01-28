@@ -1,11 +1,11 @@
-import React, { Component } from 'react';
+import React from 'react';
+import {useNavigate} from 'react-router-dom';
 
-class logo extends  Component{
-    render() {
 
-        const Signup=()=>{
-            
-        }
+function Navbar() {
+  
+            let navigate = useNavigate();
+
         return (
             <div >
             <h2 class="logo">Career Guidance </h2>
@@ -18,7 +18,7 @@ class logo extends  Component{
               <button class="menu-btn">Talks To Us</button>
               <button class="menu-btn">How it works?</button>
              
-              <button class="menu-btn-login-signup" onClick={()=>Signup()}>SIGN UP</button>
+              <button class="menu-btn-login-signup" onClick={()=> navigate("/Signup")} >SIGN UP</button>
               <button  class="menu-btn-login-signup">LOGIN</button>
             </div>     
         
@@ -27,6 +27,5 @@ class logo extends  Component{
            
         );
     }
-}
 
-export default logo;
+export default Navbar;

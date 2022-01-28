@@ -249,7 +249,10 @@
  
  
 }
-
+.not-found{
+  background-color:purple;
+  height: 100%;
+}
 .footer-description-text{
   justify-content: space-evenly;
   text-align: center;

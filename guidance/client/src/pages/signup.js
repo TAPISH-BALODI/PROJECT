@@ -1,13 +1,15 @@
 import React,{Component} from 'react';
-import Logo from '../components/headbar/logo';
-
-
 class Signup extends Component{
     render()
     {
         return(
-                
-                <Logo />
+                <div>
+                      username
+                      <input placeholder='name' name='username'/>
+                        password
+                      <input placeholder='name' name='username'/>
+                    
+                </div>
                             
         )
     }
