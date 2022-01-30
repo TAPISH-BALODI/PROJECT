@@ -1,4 +1,4 @@
-import React from 'react';
+import React ,{}from 'react';
 import {useNavigate} from 'react-router-dom';
 
 
@@ -22,7 +22,7 @@ function Navbar() {
               <button  class="menu-btn-login-signup">LOGIN</button>
             </div>     
         
-          </div> 
+           </div> 
            </div>
            
         );

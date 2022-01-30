@@ -1,7 +1,7 @@
 const express= require('express');
 const app=express();
 const connection=require('./database');
-
+import {connection} from './database.js';
 
 app.get('/signup',(req,res)=>{
 
